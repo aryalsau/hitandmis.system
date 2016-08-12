@@ -133,6 +133,7 @@ or get it from the this repository
 and install by
 
 	$ tar xvf libphidget*.tar.gz
+	$ cd libphidget*
 	$ ./configure
 	$ make
 	$ sudo make install
