@@ -65,36 +65,3 @@ Reference [unix.stackexchange.com](http://unix.stackexchange.com/questions/66830
 
 
 
-####sudo
-	$ apt-get install sudo
-
-
-
-####ssh
-	$ apt-get install openssh-server
-
-
-
-####build-essential
-	$ apt-get install build-essential
-
-
-
-####beep
-Required for virtual
-
-		$ apt-get install beep
-
-
-
-####libusb-dev
-Required for ikon
-
-	$ apt-get install libusb-dev
-
-
-
-####libraw1394-dev
-Required for pixis
-
-	$ apt-get install libraw1394-dev
