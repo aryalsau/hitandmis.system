@@ -74,7 +74,7 @@ and install
 
 
 
-#### Kernel Headers
+#### Vortex Patched Kernel Headers
 
 These headers are provided by the vendor and available on this repository
 
@@ -90,7 +90,7 @@ Needs the headers to be linked as described [here](http://askubuntu.com/question
 
 
 
-#### Kernel Image
+#### Vortex Patched Kernel Image
 
 	$ wget --no-check-certificate https://github.com/kuravih/hitandmis.system/raw/master/dependencies/linux-image-2.6.34.10-vortex86-sg_1.2_i386.deb
 
