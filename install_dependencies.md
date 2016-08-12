@@ -1,10 +1,48 @@
-##Dependancies unavailable with apt
+## Dependancies available in apt
+
+#### sudo
+	$ apt-get install sudo
+
+
+
+#### ssh
+	$ apt-get install openssh-server
+
+
+
+#### build-essential
+	$ apt-get install build-essential
+
+
+
+#### beep
+Required for virtual
+
+		$ apt-get install beep
+
+
+
+#### libusb-dev
+Required for ikon
+
+	$ apt-get install libusb-dev
+
+
+
+#### libraw1394-dev
+Required for pixis
+
+	$ apt-get install libraw1394-dev
+
+
+
+## Dependancies not available in apt
 
 Most of these packages are obsolete so a copy of the required dependencies will be held here.
 
 
 
-####libncurses5
+#### libncurses5
 
 get it from debian-archive
 
@@ -20,7 +58,7 @@ and install by
 
 
 
-####coreutils
+#### coreutils
 
 get it from debian-archive
 
@@ -36,7 +74,7 @@ and install
 
 
 
-####Kernel Headers
+#### Kernel Headers
 
 These headers are provided by the vendor and available on this repository
 
@@ -52,7 +90,7 @@ Needs the headers to be linked as described [here](http://askubuntu.com/question
 
 
 
-####Kernel Image
+#### Kernel Image
 
 	$ wget --no-check-certificate https://github.com/kuravih/hitandmis.system/raw/master/dependencies/linux-image-2.6.34.10-vortex86-sg_1.2_i386.deb
 
@@ -62,7 +100,7 @@ and install
 
 
 
-####cfitsio
+#### cfitsio
 
 get it from nasa
 
@@ -82,7 +120,7 @@ and install by
 
 
 
-####Phidgets Spatial 1056 3/3/3 driver and the library (libphidget)
+#### Phidgets Spatial 1056 3/3/3 driver and the library (libphidget)
 
 get it from Phidgets
 
@@ -101,13 +139,13 @@ and install by
 
 
 
-##node.js setup[TODO]
+## node.js setup[TODO]
 
 
 
-##Princeton Instruments Pixis 1024
+## Princeton Instruments Pixis 1024
 
-####dkms
+#### dkms
 
 get it from debian-archive
 
@@ -123,7 +161,7 @@ and install
 
 
 
-####pixis camera driver
+#### pixis camera driver
 
 get it from Princeton Instruments ftp
 
@@ -143,7 +181,7 @@ change udev rule at `/lib/udev/rules.d/10-pi.rules` such that the owner is the u
 
 
 
-####libpvcam
+#### libpvcam
 
 get it from Princeton Instruments ftp
 
@@ -159,7 +197,7 @@ and set it up with
 
 
 
-####pvcam sdk
+#### pvcam sdk
 
 get it from Princeton Instruments ftp
 
@@ -181,9 +219,9 @@ this library installs an examples folder to `/usr/local/pvcam/examples` which ne
 
 
 
-##Andor iKon-M 934
+## Andor iKon-M 934
 
-####iKon camera drivers and the sdk
+#### iKon camera drivers and the sdk
 
 get it from [Andor.com](http://my.andor.com/user/) by making an account and (needs the cameras serial number), or get it from the this repository
 
