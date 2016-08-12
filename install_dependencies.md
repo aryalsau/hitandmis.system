@@ -212,7 +212,7 @@ and install
 
 	$ tar zxvf pi_pvcam_sdk_installer-2.7.1.7.tar.gz
 	$ cd pvcam2.7.1.7
-	$ ./install_sdk.sh
+	$ sudo ./install_sdk.sh
 
 this library installs an examples folder to `/usr/local/pvcam/examples` which needs to be usable by the user of the camdaemon, there user on computers are `pixis` or `ikon`
 
