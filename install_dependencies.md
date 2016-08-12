@@ -15,6 +15,11 @@
 
 
 
+#### rsync
+	$ apt-get install rsync
+
+
+
 #### beep
 Required for virtual
 
